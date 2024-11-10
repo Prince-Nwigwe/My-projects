@@ -1,0 +1,60 @@
+body{
+    background-color: aqua;
+}
+td{
+    border-left: solid;
+    border-bottom: solid;
+}
+.right{
+    border-right: hidden;
+}
+.left{
+    border-left: hidden;
+}
+.bottom{
+    border-bottom: hidden;
+}
+
+.color{
+    background-color: aqua;
+    border-color: aqua;
+    width: 50px;
+    height: 50px;
+}
+#big{
+    font-size: 50px;
+}
+textarea{
+    border-color: black;
+}
+link {
+    border-radius: 50px;
+}
+button{
+    background-color: whitesmoke;
+    border: ridge;
+    border-color: royalblue;
+    border-radius: 3px;
+    border-width: 0.5px;
+    height: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+    transition: 0.5s;
+}
+button:hover{
+    background-color: royalblue;
+    transition: 0.5s;
+}
+#grid{
+    display: grid;
+}
+#out{
+    display: none;
+}
+#settings{
+    transition: 100ms;
+}
+.settings:hover{
+    background-color: rgba(0,0,0,0.5);
+    
+}
